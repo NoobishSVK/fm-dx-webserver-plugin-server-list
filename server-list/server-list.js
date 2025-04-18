@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 function createServerContainer() {
     const $container = $(`
-        <div id="dashboard-panel-server-list" class="scrollable-container flex-container flex-phone" style="gap: 5px; width: 100%;">
+        <div id="dashboard-panel-server-list" class="flex-container flex-phone" style="gap: 5px; width: 100%;">
             <div class="scroll-left" style="display: none;padding:20px;max-width: 32px;margin-right: 10px;">
                 <i class="fa-solid fa-chevron-left fa-lg color-4"></i>
             </div>
